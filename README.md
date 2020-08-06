@@ -4,9 +4,9 @@ REST API for car leasing. Through this you can apply for leasing by sending info
 
 ### How to run:
 
-Run with Docker: `docker goes here`
+Run with Docker: `docker run -p {your port}:8080 gvabal/car-leasing-service`
 
-Run with Maven: `maven goes here`
+Run with Maven: `./mvnw package && java -jar target/*.jar`
 
 ----
 ### Endpoints:
@@ -42,7 +42,6 @@ Example request (assuming application is running locally on port 8080):
 Example response:
 
 ![carleasingsc1](https://user-images.githubusercontent.com/49102436/89534585-d8125800-d7fd-11ea-829c-2b3b78d7b095.jpg)
-
 ----
 #### GET /api/carleasing/application/{id}
 * finds and returns processed application by id number.
