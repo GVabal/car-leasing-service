@@ -8,12 +8,13 @@ Run with Docker: `docker goes here`
 
 Run with Maven: `maven goes here`
 
-#### Endpoints:
+----
+### Endpoints:
 
 #### POST /api/carleasing/apply
 * takes application form in JSON body and returns processed application with the results.
 
-##### Application JSON Object fields (all are required):
+#### Application JSON Object fields (all are required):
 **make**:String - car make
 
 **model**:String - car model
