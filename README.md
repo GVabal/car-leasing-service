@@ -1,6 +1,10 @@
 # Car Leasing Service
 
-REST API for car leasing. Through this you can apply for leasing by sending information about vehicle, personal data including your income and requested funding amount. Credit application will be approved automatically, if your income is not lower than 600eur in family per person, ottherwise it will be rejected. It is also possible to retrieve information about previously processed credit applications.
+REST API for car leasing. Through this you can apply for leasing by sending information about vehicle, personal data including your income and requested funding amount. Credit application will be approved automatically, if your income is not lower than 600eur in family per person, otherwise it will be rejected. It is also possible to retrieve information about previously processed credit applications.
+
+### Technologies used:
+
+Java 8, Spring Boot, JPA, H2 database, JUnit5, Maven, Docker
 
 ### How to run:
 
