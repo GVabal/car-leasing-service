@@ -40,6 +40,7 @@ Example request (assuming application is running locally on port 8080):
 `curl -X POST -H "Content-Type: application/json" -d '{"amount" : 5000, "make" : "Ford", "model" : "Focus", "fuelType" : "diesel", "damage" : "no damages", "year" : 1999, "firstName" : "Johny", "lastName" : "Dough", "socialSecurityNumber" : "196604201234", "dependents" : 0, "monthlyIncome" : 1050}' http://localhost:8080/api/carleasing/apply`
 
 Example response:
+
 ![carleasingsc1](https://user-images.githubusercontent.com/49102436/89534585-d8125800-d7fd-11ea-829c-2b3b78d7b095.jpg)
 ----
 #### GET /api/carleasing/application/{id}
@@ -50,4 +51,5 @@ Example request (assuming application is running locally on port 8080):
 `curl -X GET http://localhost:8080/api/carleasing/application/3`
 
 Example response:
+
 ![carleasingsc1](https://user-images.githubusercontent.com/49102436/89534585-d8125800-d7fd-11ea-829c-2b3b78d7b095.jpg)
